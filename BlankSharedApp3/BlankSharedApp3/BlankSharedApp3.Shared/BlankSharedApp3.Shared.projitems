@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>5f98bd10-6132-46ae-b655-ebd946980ff5</SharedGUID>
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include="$(MSBuildThisFileDirectory)js\chat.js" />
+    <Content Include="$(MSBuildThisFileDirectory)js\chat_us.js" />
+    <Content Include="$(MSBuildThisFileDirectory)js\default.js" />
+    <Content Include="$(MSBuildThisFileDirectory)js\jquery-1.11.1.js" />
+    <Content Include="$(MSBuildThisFileDirectory)js\jquery.serializejson.js" />
+    <Content Include="$(MSBuildThisFileDirectory)js\script.js" />
+  </ItemGroup>
+</Project>
